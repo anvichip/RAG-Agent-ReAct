@@ -1,7 +1,7 @@
 from langchain_ollama.chat_models import ChatOllama
 
 _llm = None        # singleton instance
-_current_model = "llama3.2"
+_current_model = "qwen3-vl:2b"
 
 
 def get_llm():
