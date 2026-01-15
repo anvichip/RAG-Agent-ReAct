@@ -1,0 +1,113 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Jupyter (if any)
+.ipynb_checkpoints/
+
+# =========================
+# Backend runtime artifacts
+# =========================
+backend/storage/
+backend/src/app/storage/uploads/
+backend/src/app/storage/chroma/
+backend/src/**/storage/uploads/
+backend/src/**/storage/chroma/
+
+# Flask cache/logs
+*.log
+logs/
+instance/
+
+# =========================
+# Node / React / Vite
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Tailwind / build cache
+# =========================
+*.css.map
+
+# =========================
+# ChromaDB / Vector DB files
+# (Chroma stores SQLite + parquet etc)
+# =========================
+chroma/
+chromadb/
+chroma/
+chromadb/
+chroma_db/
+chroma-data/
+**/chroma/
+**/chromadb/
+*.sqlite3
+*.db
+
+# =========================
+# Uploads / data artifacts
+# =========================
+uploads/
+data/
+*.pdf
+*.docx
+
+# =========================
+# Secrets / keys
+# =========================
+*.pem
+*.key
+*.crt
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+.cache/
